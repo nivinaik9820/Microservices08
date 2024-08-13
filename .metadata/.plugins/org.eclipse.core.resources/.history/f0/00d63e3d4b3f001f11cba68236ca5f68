@@ -1,0 +1,42 @@
+package Inhritance;
+
+public class TeamLead {
+	int pid;
+	String name;
+	int eid;
+	public TeamLead(int pid, String name, int eid) {
+		super();
+		this.pid = pid;
+		this.name = name;
+		this.eid = eid;
+	}
+	public void display() {
+		System.out.println(pid);
+		System.out.println(name);
+		System.out.println(eid);
+
+	}
+	public String projectDetails() {
+		return "project is going on";
+	}
+	
+	
+
+}
+
+class Team extends TeamLead{
+	String tname;
+	int no_of_dev;
+	String pName;
+	
+	
+	public void display() {
+		super.display();
+		System.out.println(tname);
+
+	}
+	
+	
+	 
+	
+}

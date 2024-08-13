@@ -1,0 +1,26 @@
+package com.org.api;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class Stream {
+	public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+
+        ArrayList<String> b = new ArrayList<>();
+       
+        
+       b.add("a");
+       b.add("ab");
+       Arraylistdemo<String> s=b.Stream();
+       
+       
+        
+        
+        
+
+		
+	}
+
+}

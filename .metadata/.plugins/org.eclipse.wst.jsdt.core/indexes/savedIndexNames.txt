@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+/home/labuser/Desktop/Nivedita/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1635985812.index
+812655108.index
+3911088650.index
+3343109235.index
+1526687439.index
+353362349.index
+206172960.index
+3525260285.index
+3765621943.index
+868329316.index

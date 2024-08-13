@@ -1,0 +1,27 @@
+package com.org.link;
+
+public class Main {
+	String name;
+	int id;
+	String  skill;
+	String country;
+	public Main(String name, int id, String skill, String country) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.skill = skill;
+		this.country = country;
+	}
+	@Override
+	public String toString() {
+		return "Player [name=" + name + ", id=" + id + ", skill=" + skill + ", country=" + country + "]";
+	}
+	
+
+}
+class Main{
+	public static void main(System.in) {
+		
+	}
+}
+

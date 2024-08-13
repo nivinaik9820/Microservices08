@@ -1,0 +1,10 @@
+package Inhritance;
+
+public class Main {
+	public static void main(String args[]) {
+		Team t=new Team(101,"Developer",1,"Nivedita");
+		t.display();
+		
+	}
+
+}

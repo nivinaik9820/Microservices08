@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Send redirect</title>
+</head>
+<body>
+	<form action="search">
+		Name : <input type="text" name="name"> <br>
+		 
+	</form>
+
+</body>
+</html>

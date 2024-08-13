@@ -1,0 +1,19 @@
+package com.telusko.simpleWebApp;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class HomeController {
+	
+		@RequestMapping("/")
+		public String greet(){
+			return "welcome to spring boot";
+			}
+		
+		@ResponseBody("/about")
+		public string about() {
+			return "i reached to my goal! finally..";
+		}
+	}

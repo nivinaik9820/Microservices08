@@ -1,0 +1,10 @@
+127.0.0.1 - - [17/Jul/2024:12:38:02 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:38:02 +0000] "GET /ServeletProject/View.html HTTP/1.1" 200 236
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:38:02 +0000] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [17/Jul/2024:12:38:58 +0000] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [17/Jul/2024:12:39:30 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:39:31 +0000] "GET /ServeletProject/index.html HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:39:33 +0000] "GET /ServeletProject/welcome HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:40:59 +0000] "GET /ServeletProject/ HTTP/1.1" 200 161
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:41:02 +0000] "GET /ServeletProject/welcome HTTP/1.1" 200 21
+0:0:0:0:0:0:0:1 - - [17/Jul/2024:12:41:12 +0000] "POST /ServeletProject/check HTTP/1.1" 200 21

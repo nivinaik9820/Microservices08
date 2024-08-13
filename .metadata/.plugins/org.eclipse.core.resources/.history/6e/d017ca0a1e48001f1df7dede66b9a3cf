@@ -1,0 +1,6 @@
+package com.org.p;
+
+@controller
+public class Homecontroller {
+
+}

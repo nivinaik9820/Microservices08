@@ -1,0 +1,43 @@
+package Inhritance;
+
+public class TeamLead {
+	int pid;
+	String name;
+	int eid;
+	public TeamLead(int pid, String name, int eid) {
+		super();
+		this.pid = pid;
+		this.name = name;
+		this.eid = eid;
+	}
+	public void display() {
+		System.out.println(pid);
+		System.out.println(name);
+		System.out.println(eid);
+
+	}
+	
+
+}
+
+class Team extends TeamLead{
+	String pname;
+
+	public Team(int pid, String name, int eid,String pname) {
+		super(pid, name, eid);
+		// TODO Auto-generated constructor stub
+		this.pname=pname;
+	}
+	public void display() {
+		super.display();
+		System.out.println(pname);
+
+	}
+	public static void main(String args[]) {
+		Team t=new Team(101,"Developer",1,"Nivedita");
+		t.display();
+
+	
+	 
+	
+}

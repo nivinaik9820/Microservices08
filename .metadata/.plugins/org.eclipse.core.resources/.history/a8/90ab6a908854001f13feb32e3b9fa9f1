@@ -1,0 +1,5 @@
+package com.example.kafka1.RestController;
+
+public class KafkaRestController {
+
+}

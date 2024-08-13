@@ -1,0 +1,9 @@
+package Microservices1.jdbc1.model;
+
+public class Product {
+	int pid;
+	String name;
+	String brandName;
+	int price;
+
+}

@@ -1,0 +1,20 @@
+package com.org.link;
+import java.util.LinkedHashSet;
+import java.util.Iterator;
+
+
+public class Info {
+	public static void main(String args[]) {
+		LinkedHashSet<Student>h=new LinkedHashSet<>();
+		
+		h.add(new Student( 1,"nivedita","dandeli"));
+		h.add(new Student( 2,"Swap","dandeli"));
+
+		Iterator<Student> a=h.iterator();
+		while(a.hasNext()) {
+			System.out.println(a.next());
+		}
+		
+		
+	}
+}

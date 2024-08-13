@@ -1,0 +1,52 @@
+package com.org.api;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+
+public class Arraylistdemo {
+	public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+
+        ArrayList<String> b = new ArrayList<>();
+       
+        
+       b.add("a");
+       b.add("ab");
+       Stream<String> sequentialStream= b.stream();
+       Stream<String> parallelStream= b.parallelStream();
+       //Stream.of() method create a stream from individual values.
+       
+       Stream<String> s1=Stream.of("a","ab"); 
+       sequentialStream = Stream.of("hello");
+       System.out.println("print "+sequentialStream);
+       
+       
+       
+//       filter()  filters elemnts based on predicate
+//       ArrayList<String> c = b.stream(.filter(s.stratWith("a")).coolect(Collector.));
+
+
+       
+       
+       
+       int x[]= {1,2,3,4,5};
+       IntStream f= Arrays.stream(x);
+    Stream<String> n=Stream.of("a","ab"); 
+      
+       
+
+       
+       
+       
+        
+        
+        
+
+		
+	}
+
+}

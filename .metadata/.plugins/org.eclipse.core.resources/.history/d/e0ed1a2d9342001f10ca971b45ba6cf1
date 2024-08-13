@@ -1,0 +1,23 @@
+package com.org.link;
+import java.util.Hashtable;
+
+
+public class Hash1 {
+	public static void main(String args[]) {
+		
+		 Hashtable<Integer,String> set=new Hashtable<>();  
+		
+
+         set.put(1,"n");    
+         set.put(2,"s");    
+         set.put(3,"v");   
+         set.put(1,"c");  
+	}
+}
+
+
+
+
+
+
+

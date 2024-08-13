@@ -1,0 +1,5 @@
+package springcloudclient.client;
+
+public class WelcomeController {
+
+}

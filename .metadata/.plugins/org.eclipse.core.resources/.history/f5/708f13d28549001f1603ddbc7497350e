@@ -1,0 +1,23 @@
+package com.org.api;
+import java.util.List;
+
+
+public class Demo {
+	
+		public static Integer solve(int n,int x) {
+			try {
+				return n/x;
+				
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
+			
+		}
+		
+		public static List<Integer> divide(List<Integer> l,Integer x){
+			
+			
+		}
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.org.api.Stream&apos; to &apos;Arraylistdemo&apos;&#x0A;- Original project: &apos;StreamAPI&apos;&#x0A;- Original element: &apos;com.org.api.Stream&apos;&#x0A;- Renamed element: &apos;com.org.api.Arraylistdemo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Stream&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.org.api{Stream.java[Stream" matchStrategy="1" name="Arraylistdemo" qualified="false" references="true" similarDeclarations="false" stamp="1721795751588" textual="false" version="1.0"/>
+</session>

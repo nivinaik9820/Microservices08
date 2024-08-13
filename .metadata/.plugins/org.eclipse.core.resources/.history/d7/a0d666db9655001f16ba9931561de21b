@@ -1,0 +1,16 @@
+package com.example.Telsko.Myapp;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Alien {
+	public void build() {
+		System.out.println("hey ");
+	}
+
+	public void build1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

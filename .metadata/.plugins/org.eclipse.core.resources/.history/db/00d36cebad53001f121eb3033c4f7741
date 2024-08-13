@@ -1,0 +1,11 @@
+package com.example.springcloudeurekaclientdemo;
+
+public class Product {
+	
+	String name;
+	Integer price;
+	public Product() {
+		
+	}
+
+}

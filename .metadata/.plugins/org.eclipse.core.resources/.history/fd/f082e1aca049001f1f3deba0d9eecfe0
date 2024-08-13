@@ -1,0 +1,20 @@
+package com.org.api;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String args[]) {
+		ArrayList<Employee> a=new ArrayList();
+		a.add(new Employee(1,"nivi",23,25,"f",60000));
+		a.add(new Employee(2,"swap",25,25,"g",80000));
+
+		a.add(new Employee(3,"sagar",26,25,"g",40000));
+
+		a.add(new Employee(4,"nikki",25,25,"f",50000));
+		
+		
+
+		
+	}
+
+}
